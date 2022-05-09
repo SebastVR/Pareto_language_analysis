@@ -4,8 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+numpy = "*"
+pandas = "*"
+ebooklib = "*"
 
 [dev-packages]
+black = "*"
+bandit = "*"
+flake8 = "*"
+mypy = "*"
+pycodestyle = "*"
+pydocstyle = "*"
+pylint = "*"
+pytype = "*"
+isort = "*"
+prospector = "*"
 
 [requires]
 python_version = "3.9"
