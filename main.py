@@ -12,5 +12,5 @@ def check_data_epub():
             if book.suffix == ".epub":
                 return list_epub_true.append(book)
         except ValueError:
-
+            
         # print(i.stem, type(i.suffix))
